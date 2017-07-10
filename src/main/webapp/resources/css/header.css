@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+#containerWrap_main {width:100%; min-height:1000px; display:block; overflow:hidden;  z-index:1; background:#f7f7f7 url(../images/main/content_bg.jpg) repeat-y center top;}
+
+/* header */
+#header_main {position:relative;	width:1200px; height:98px; margin:0 auto; .z-index:110;}
+#header_main h1 {position:absolute; top:30px; left:43px; z-index:99999;}
+#header_main .top_menu {position:absolute; top:19px; right:87px; z-index:99999; text-align:center; width:202px;}
+#header_main .top_menu ul {display:inline-block; zoom:1; .display:inline;}
+#header_main .top_menu ul li {float:left; padding:0 9px 0 9px; background:url(../images/common/top_menu_line.gif) no-repeat left center;}
+#header_main .top_menu ul li.none {background:none;}
+#header_main .top_menu ul li a {font-size:12px; color:#555; line-height:1em; text-decoration:none;}
+#header_main .search {position:absolute; top:45px; right:87px; width:202px; z-index:99999;}
+#header_main .search .inputsch {float:left; width:140px; height:32px; padding-left:20px; line-height:30px; border:0; background:url(../images/common/top_search_bg.png) no-repeat;}
+#header_main .search .btnSearch {float:left;}
+#header_main .btn_wrap {position:absolute; top:0; left:50%; margin-left:546px; width:54px; height:98px; right:0; z-index:99999; }
+#header_main .btn_wrap .popup_btn {position:relative; display:inline-block; float:left; width:54px; height:49px; background:url(../images/main/popup_off.gif) no-repeat;} /*20160831수정*/
+#header_main .btn_wrap .popup_btn a {text-indent:-99999px; width:54px; height:49px; overflow:hidden;}
+#header_main .btn_wrap .popup_btn.open {position:relative; display:inline-block; width:54px; height:49px; background:url(../images/main/popup_on.gif) no-repeat; cursor:pointer;}/*20160831수정*/
+#header_main .btn_wrap .popup_btn2 {position:relative; display:inline-block; float:left; width:54px; height:49px; background:url(../images/main/popup_on.gif) no-repeat;}/*20160831수정*/
+#header_main .btn_wrap .popup_btn2 a {text-indent:-99999px; width:54px; height:49px; overflow:hidden;}
+#header_main .btn_wrap .popup_btn2.open {position:relative; display:inline-block; width:54px; height:49px; background:url(../images/main/popup_off.gif) no-repeat; cursor:pointer;}/*20160831수정*/
+#header_main .btn_wrap .total_btn {position:relative; width:54px; height:49px; margin:0;}
+#header_main .btn_wrap .total_btn img {position:relative; float:left; width:54px;}
+
+
+/* gnb */
+#gnb_main{position:absolute; width:100%; height:98px; overflow:hidden; top:0; left:0; z-index:100;}
+#gnb_main > ul{position:absolute; display:inline-block; padding:0; left:50%; margin-left:-285px; }
+#gnb_main > ul > li{float:left; padding:50px 80px 30px 0;}
+#gnb_main > ul > li > a{display:block; font-size:18px; font-weight:700; line-height:1em; color:#222; text-decoration:none;}
+#gnb_main > ul > li > a:hover {text-decoration:none;}
+#gnb_main > ul > li > ul.snum01{position:absolute; top:98px; width:224px; height:265px; padding:0; border-left:1px solid #e2e2e2; margin-left:-45px;}
+#gnb_main > ul > li > ul.snum02{position:absolute; top:98px; width:224px; height:265px; padding:0; border-left:1px solid #e2e2e2; margin-left:46px;}
+#gnb_main > ul > li > ul.snum03{position:absolute; top:98px; width:224px; height:265px; padding:0; border-left:1px solid #e2e2e2; margin-left:119px;}
+#gnb_main > ul > li > ul.snum04{position:absolute; top:98px; width:224px; height:265px; padding:0; border-left:1px solid #e2e2e2; margin-left:193px;}
+#gnb_main > ul > li > ul > li.tit > a {margin:29px 0 10px 25px; color:#4152ac; font-size:16px; font-weight:700; text-decoration:none;}
+#gnb_main > ul > li > ul > li.smenu > a {margin:0 0 0 25px; color:#222; font-size:14px; text-decoration:none;}
+#gnb_main > ul > li > ul > li.smenu > a:hover {text-decoration:underline;}
+#gnb_main > ul > li > ul > li.ssmenu > a {margin:0 0 0 35px; padding-left:10px; color:#222; font-size:14px; text-decoration:none; background:url(../images/common/gnb_icon_arrow.png) no-repeat left center;}
+#gnb_main > ul > li > ul > li.ssmenu > a:hover {text-decoration:underline;}
+#gnb_main > ul > li > ul > li > a{display:block;line-height:30px}
+#gnb_main > .etc {position:absolute; top:98px; width:221px; height:265px; left:50%; margin-left:-550px;}
+#gnb_main > .etc > .slogan {margin:35px 0 0 11px;}
+#gnb_main > .etc > .btn01 {margin:46px 0 0 2px;}
+#gnb_main > .etc > .btn02 {margin:5px 0 0 2px;}

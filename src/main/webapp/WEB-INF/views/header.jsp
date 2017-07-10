@@ -5,7 +5,8 @@
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="resources/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="resources/css/default.css" />
+	<link rel="stylesheet" type="text/css" href="resources/css/header.css" />
 	<script src="resources/js/jquery-ui.min.js"></script>
 	<title>Insert title here</title>
 	<style>
@@ -16,7 +17,7 @@
 	<body>
 		<header id="headerWrap">
 		<div id="header_main">
-			<h1><a href="#" style="z-index: 2"><img src="resources/img/wevicetoo.png" style="margin-top: -12px;" width=137 alt="로고" /></a></h1>
+			<h1><a href="#" style="z-index: 2"><img src="resources/img/wevicetoo.png" style="margin-top: -16px;" width=142 alt="로고" /></a></h1>
 			<nav class="top_menu">
 				<ul>
 					<li><a href="">로그인</a><span style="margin-left: 2px; margin-right: -32px;">|</span></li>
@@ -38,35 +39,35 @@
 				
 			</div>
 			<ul>
-				<li style=""><a href="">홈 소개</a>
+				<li style=""><a href="#">소개</a>
 					<ul class="snum01">
-						<li class="tit"><a href="">소개</a></li>
-						<li class="smenu"><a href="">연혁</a></li>
-						<li class="smenu"><a href=""></a></li>
-						<li class="smenu"><a href=""></a></li>
-						<li class="smenu"><a href=""></a></li>
+						<li class="tit"><a href="#">소개</a></li>
+						<li class="smenu"><a href="#">소개글</a></li>
+						<li class="smenu"><a href="#"></a></li>
+						<li class="smenu"><a href="#"></a></li>
+						<li class="smenu"><a href="#"></a></li>
 						
 					</ul>
 				</li>
-				<li><a href="">프로젝트</a>
+				<li><a href="#">프로젝트</a>
 					<ul class="snum02">
-						<li class="tit"><a href="">프로젝트</a></li>
-						<li class="smenu"><a href="">프로젝트 목록</a></li>
-						<li class="smenu"><a href="">프로젝트 결과물</a></li>
+						<li class="tit"><a href="#">프로젝트</a></li>
+						<li class="smenu"><a href="#">프로젝트 목록</a></li>
+						<li class="smenu"><a href="#">프로젝트 결과물</a></li>
 					</ul>
 				</li>
-				<li><a href="">커뮤니티</a>
+				<li><a href="#">커뮤니티</a>
 					<ul class="snum03">
-						<li class="tit"><a href="">커뮤니티</a></li>
-						<li class="smenu"><a href="">지식QnA</a></li>
+						<li class="tit"><a href="#">커뮤니티</a></li>
+						<li class="smenu"><a href="#">지식QnA</a></li>
 					</ul>
 				</li>
-				<li><a href="">공지사항</a>
+				<li><a href="#">공지사항</a>
 					<ul class="snum04">
-						<li class="tit"><a href="">공지사항</a></li>
-						<li class="smenu"><a href="">공지사항</a></li>						
-						<li class="smenu"><a href="">공모소식</a></li>
-						<li class="smenu"><a href="">채용소식</a></li>
+						<li class="tit"><a href="#">공지사항</a></li>
+						<li class="smenu"><a href="#">공지사항</a></li>						
+						<li class="smenu"><a href="#">공모소식</a></li>
+						<li class="smenu"><a href="#">채용소식</a></li>
 					</ul>
 				</li>
 			</ul>

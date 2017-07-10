@@ -1,5 +1,6 @@
 @CHARSET "UTF-8";
 
+/*list-style */
 body {
 	margin:0;
 	padding:0;
@@ -54,11 +55,7 @@ th, td {
 	text-align:left;
 	font-weight:normal;
 }
-dd, dl, ol, form {
-	margin:0;
-	padding:0;
-}
-ul{
+dd, dl, ol, ul, form {
 	margin:0;
 	padding:0;
 }
